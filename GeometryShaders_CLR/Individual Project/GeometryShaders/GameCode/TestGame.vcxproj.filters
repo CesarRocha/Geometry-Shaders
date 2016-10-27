@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main Files">
+      <UniqueIdentifier>{660c1055-b542-41a4-a73c-f847c6bb1e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShadersFiles">
+      <UniqueIdentifier>{73b4ec6c-6d65-4ec3-8414-025a4fb1a409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShadersFiles\Cube">
+      <UniqueIdentifier>{ad35d4d6-bd13-4410-a434-139c36635879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShadersFiles\Billboard">
+      <UniqueIdentifier>{942e0245-fb53-4f08-9cbb-ac44644644a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShadersFiles\model">
+      <UniqueIdentifier>{b71fa434-41e2-4f7a-8cd4-c1a276ff600c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShadersFiles\CubeLights">
+      <UniqueIdentifier>{5804ded6-e84e-4629-8bed-000a768e339c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShadersFiles\Special">
+      <UniqueIdentifier>{5e6b4791-0b41-4357-bf7e-ec385006954f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShadersFiles\Orbit">
+      <UniqueIdentifier>{82ba47fc-2222-4908-b7b5-3064fc934d1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>Main Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>Main Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Main Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Run_Win32\shaders\particleCube_geometry.glsl">
+      <Filter>ShadersFiles\Cube</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\particleCube_vertex.glsl">
+      <Filter>ShadersFiles\Cube</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\particleCube_fragment.glsl">
+      <Filter>ShadersFiles\Cube</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\particleBillboard_fragment.glsl">
+      <Filter>ShadersFiles\Billboard</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\particleBillboard_vertex.glsl">
+      <Filter>ShadersFiles\Billboard</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\particleBillboard_geometry.glsl">
+      <Filter>ShadersFiles\Billboard</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\model_fragment.glsl">
+      <Filter>ShadersFiles\model</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\model_vertex.glsl">
+      <Filter>ShadersFiles\model</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\particleCubeLights_fragment.glsl">
+      <Filter>ShadersFiles\CubeLights</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\particleCubeLights_geometry.glsl">
+      <Filter>ShadersFiles\CubeLights</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\particleCubeLights_vertex.glsl">
+      <Filter>ShadersFiles\CubeLights</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\modelExplode_geometry.glsl">
+      <Filter>ShadersFiles\Special</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\particleCubeOrbit_fragment.glsl">
+      <Filter>ShadersFiles\Orbit</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\particleCubeOrbit_geometry.glsl">
+      <Filter>ShadersFiles\Orbit</Filter>
+    </None>
+    <None Include="..\Run_Win32\shaders\particleCubeOrbit_vertex.glsl">
+      <Filter>ShadersFiles\Orbit</Filter>
+    </None>
+  </ItemGroup>
+</Project>
