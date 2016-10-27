@@ -5,8 +5,8 @@ It includes the Geometry Shader Program, the engine needed to run it, and a shor
 
 Controls:
 
-1: Spawn a clean explosion.
-2. Spawn a dirty explosion.
+1: Spawn a dirty explosion.
+2. Spawn a clean explosion.
 3. SPawn rain.
 
 Numpad1: Change Shader to billboard.
