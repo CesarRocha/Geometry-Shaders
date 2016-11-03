@@ -5,9 +5,18 @@ It includes the Geometry Shader Program, the engine needed to run it, and a shor
 
 Controls:
 
+W: Move forward
+S: Move backward
+A: Strafe left.
+D: Strafe right
+E: Move up
+Space: Move down
+Shift: Movement speed boost
+Mouse: Look around
+
 1: Spawn a dirty explosion.
 2. Spawn a clean explosion.
-3. SPawn rain.
+3. Spawn rain.
 
 Numpad1: Change Shader to billboard.
 Numpad2: Change shader to Cubes.
